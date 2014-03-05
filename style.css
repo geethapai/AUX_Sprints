@@ -50,7 +50,10 @@ table {
 /*end reset*/
 
 .main-feature {
-	padding: 20px;
+	float: left;
+	padding: 5%;
+	width: 70%;
+	margin:;
 }
 
 h1 {
