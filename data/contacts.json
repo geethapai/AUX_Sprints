@@ -2,40 +2,40 @@
 {
 	"addressBook" : [
 			{
-				"name": "anand",
-				"email": "anand@example.com"
+				"name": "Anand Anderson",
+				"email": "Anand@gmail.com"
 			},
 			{
-				"name": "brenda",
-				"email": "brenda@example.com"
+				"name": "Brenda Carter",
+				"email": "bcarter@yahoo.com"
 			},
 			{
-				"name": "bart",
-				"email": "bsimpson@example.com"
+				"name": "Lutz Goldman",
+				"email": "lutz@dansk.com"
 			},
 			{
-				"name": "jack",
-				"email": "jspencer@example.com"
+				"name": "Janel Spencer",
+				"email": "jspencer@brown.edu"
 			},
 			{
-				"name": "jennifer",
-				"email": "jam@example.com"
+				"name": "Jennifer  McDermitt",
+				"email": "jmc@opera.edu"
 			},
 			{
-				"name": "marisa",
-				"email": "marisa@example.com"
+				"name": "Marisa Svensson",
+				"email": "msven@gmail.com"
 			},
 			{
-				"name": "michael",
-				"email": "patterson@example.com"
+				"name": "Michael Peterson",
+				"email": "mpete@gmail.com"
 			},
 			{
-				"name": "sabina",
+				"name": "Sabina Brown",
 				"email": "sbrown@example.com"
 			},
 			{
-				"name": "travis",
-				"email": "travis@example.com"
+				"name": "Travis Svensson",
+				"email": "tsvensson7@gmail.com"
 			}
 	]
 }
