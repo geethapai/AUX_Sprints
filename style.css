@@ -49,21 +49,79 @@ table {
 }
 /*end reset*/
 
-.main-feature {
-	padding: 20px;
+body {
+	background-image: url(wavegrid.png);
+}
+
+.main-content {
+	width: 50%;
+	padding: 10%;
+	margin: 0 auto;
+}
+
+.feature {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.title {
+	float: left;
+	width: 60%;
+	margin: 0 auto;
 }
 
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 24px;
-	font-weight: 600;
+	color: #8B0000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 42px;
+	font-weight: 200;
+	padding: 3%;
+	text-align: center;
 }
 
+.section {
+	margin: 0 auto;
+	width: 82%;
+}
+
+.button-group {
+	margin: 0 auto;	
+	width: 50%;
+}
 
 label{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 22px;
+	padding: 2%;
+	margin: 0 auto;
 } 
+
+
+input {
+	padding: 2%;	
+	margin: 0 auto;
+}
+
+
+.textfield {
+	width: 400px;
+	padding: 2%;
+	font-size: 20px;
+}
+
+
+#output {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	padding: 3%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
 
 
 

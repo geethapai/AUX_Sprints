@@ -15,7 +15,7 @@ var addr = {
 		$.getJSON('data/contacts.json', function(data) {
 
 			//save the input value, contacts length and i to variables
-			var searchValue = $('#q').val(),
+			var searchValue = $('#q').val().toLowerCase(),
 					addrBook = data.addressBook,
 					count = addrBook.length;
 
@@ -30,7 +30,7 @@ var addr = {
 				$.each(addrBook, function (i , obj) { 	
 				
 					//look through the name value to see if contains the search term string
-					var isItFound = obj.name.indexOf(searchValue);
+					var isItFound = obj.name.toLowerCase().indexOf(searchValue);
 
 					//anything other than -1 means there is a match
 					if(isItFound !== -1) {

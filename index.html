@@ -5,33 +5,35 @@
 	<title>AUX Sprints: Geetha Pai</title>
 	<style>
 		.active { background: #ddd;}
-		.hovering { background: #eee;}
-		form > div {padding: 10px;}
+		.hovering { background: #c4c4c4;}
+		form > div {padding: 15px;}
 	</style>
 	<link rel="stylesheet" href="style.css" type="type/css">
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <!--[if lt IE9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]--> 
 </head>
 <body>
-	<div class="main-feature">
-		<h1>Geetha's Address Book</h1>
-		<form action="" method="get" id="search-form">
+	<div class="main-content">
+		<div class="feature">
+			<h1>Geetha's Address Book</h1>
+			<form action="" method="get" id="search-form">
 			<div class="section">
-				<label for="q">Search address book</label>
-				<input type="search" id="q" name="q" required placeholder="type a name">
+				<label for="q">Search for contacts:</label>
+				<input type="search" id="q" name="q" required placeholder="type a name" class="textfield">
 			</div><!--section-->
 			<div class="button-group">
 				<button type="submit" id="btn-search">search</button>
 				<button type="button" id="get-all">get all contacts</button>
 			</div><!-- button-group -->	
 		</form>
-	</div><!-- main-feature -->
+		<div><!-- feature -->
+	</div><!-- main-content -->
 	<!-- adding aria to the HTML output -->
 <div id="output" aria-atomic="true" aria-live="polite" aria-relevant="additions subtractions"></div><!--/#output-->
-
+</div><!-- main-feature -->
 <script src="js/jquery.js"></script>
 <script src="js/addressbook.js"></script>
 </body>
